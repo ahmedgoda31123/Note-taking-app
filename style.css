@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #0d6efd;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-word {
+    color:white; 
+}
+
+h1 {
+    margin-left: 15%;
+}
+
+h2 {
+    margin-left: 3%;
+}
+
+#inpt {
+    border: 1px solid rgba(0,0,0,.125);
+    margin-left: 13%;
+    margin-right: 13%;
+    border-radius: 1px;
+    resize: none;
+    border-radius: 5px;
+}
+
+#title, #note {
+    border: 1px solid rgba(0,0,0,.125);
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    resize: none;
+    border-radius: 5px;
+}
+
+#title {
+    height: 60px;
+}
+
+#note {
+    height: 100px;
+}
+
+input {
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+    border-radius: 8%;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+hr, p {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.notes {
+    float: left;
+    width: 18rem;
+    height: fit-content;
+    margin-left: 13%;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h3, .addedNotes {
+    margin-left: 10%;
+    margin-right: 10%;
+}
